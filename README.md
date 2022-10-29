@@ -1,5 +1,6 @@
 # Rickandmorty
-
+## Tutorial:
+* https://coryrylan.com/blog/introduction-to-angular-router-animations
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
 
 ## Development server
