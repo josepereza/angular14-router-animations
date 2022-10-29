@@ -1,0 +1,75 @@
+.principal {
+    height: 100vh;
+    width: 100%;
+display: grid;
+grid-template-columns: minmax(300px,1fr) minmax(300px, 1fr);
+
+
+
+align-items: center;
+}
+
+
+.texto{
+max-width: 90%;
+margin-left: auto;
+
+}
+h1 {
+    font-size: 5em;
+    font-weight: 400;
+}
+p {
+    font-size: 1.5em;
+}
+.imagen {
+margin: auto;
+}
+button{
+    margin-top: 50px;
+    padding: 15px 30px;
+    font-size: 2em;
+    border: 2px solid;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: blue;
+    color:aliceblue
+}
+
+@media  (max-width: 600px) {
+    .principal {
+        
+        display: flex;
+  flex-direction: column;
+  min-width:  100%;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+       
+    }
+
+    
+    .texto{
+        order:2;
+          width: 100%;    
+      
+       
+        }
+        h1 {
+            font-size: 3em;
+            font-weight: 400;
+            color: blue;
+        }
+        p {
+            font-size: 1.5em;
+            
+        }
+        .imagen {
+        order:1;
+       
+       z-index: -1;
+       
+        }
+  }
