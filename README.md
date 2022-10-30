@@ -2,7 +2,7 @@
 ## Tutorial:
 * https://coryrylan.com/blog/introduction-to-angular-router-animations
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
-
+![images](ricky1.png)(rick2.png) 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
