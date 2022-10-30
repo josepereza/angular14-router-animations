@@ -1,2 +1,26 @@
-<p>listado works!</p>
-<a class="button"  routerLink="/home">Entrar</a>
+<div class="cabezera">
+    <div class="item">
+    <p style="display: inline; font-size: 2em;  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >Listado de Personajes</p>
+
+    </div>
+    <div class="item">
+<a class="button"  routerLink="/home">Salir</a>
+
+    </div>
+</div>
+<div class="container">
+
+
+<br><br>
+    <label for="name">Texto de busqueda: </label>
+<input id="name" type="text" [formControl]="name">
+    <div class="grid">
+        <div class="card" *ngFor="let item of personajes">
+            <img src={{item.image}}   width="100%" alt="">
+            <div class="informacion">
+                <span [ngStyle]="{'background-color':item.status === 'Alive' ? 'green' : 'red' }" class="badge">{{item.status}}</span>
+            <span class="titulo">{{item.name}}</span>
+            </div>
+        </div>
+    </div>
+</div>

@@ -39,23 +39,23 @@ button:hover{
 
 @media  (max-width: 600px) {
     .principal {
-        
+        max-height: 100vh;
         display: flex;
   flex-direction: column;
   min-width:  100%;
-        justify-content: center;
-        justify-items: center;
+  max-width: 100%;
+        justify-content: space-around;
+        justify-items: space-around;
         align-items: center;
         align-content: center;
-       
+       margin-bottom: 50px;
     }
 
     
     .texto{
         order:2;
           width: 100%;    
-      
-       
+       margin-bottom: 100px;
         }
         h1 {
             font-size: 3em;
@@ -68,8 +68,11 @@ button:hover{
         }
         .imagen {
         order:1;
-       
+       max-height: 60%;
        z-index: -1;
        
+        }
+        img{
+            width: 70%;
         }
   }
